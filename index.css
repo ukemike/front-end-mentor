@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+}
+
+/* a container to give spacing on the edges and center everything */
+.container {
+    max-width: 1300px;
+    margin: auto; /* center the container */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* space between the logo and the menu */
+    padding: 20px 0;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* gap between the elements */
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_links a span{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav_links a span:hover{
+    color: #ff0000;
+}
+
+.nav_links_right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.register_link{
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.register_link:hover{
+    background: #ff0000;
+    color: #ffffff;
+}
