@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -20,7 +20,8 @@ body {
 /* a container to give spacing on the edges and center everything */
 .container {
     max-width: 1300px;
-    margin: auto; /* center the container */
+    margin: auto;
+    /* center the container */
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -28,7 +29,8 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* space between the logo and the menu */
+    justify-content: space-between;
+    /* space between the logo and the menu */
     padding: 20px 0;
 }
 
@@ -39,35 +41,93 @@ body {
     /* gap between the elements */
 }
 
-.nav_links{
+.nav_links {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.nav_links a span{
+.nav_links a span {
     color: #000000;
     font-size: 16px;
     font-weight: 400;
 }
 
-.nav_links a span:hover{
+.nav_links a span:hover {
     color: #ff0000;
 }
 
-.nav_links_right{
+.nav_links_right {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.register_link{
+.register_link {
     border: 1px solid #000000;
     padding: 10px 15px;
     border-radius: 10px;
 }
 
-.register_link:hover{
+.register_link:hover {
     background: #ff0000;
     color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 116px;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.hero_text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.hero_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.hero_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.btn{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+
+.btn:hover{
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
